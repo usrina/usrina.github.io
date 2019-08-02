@@ -1,0 +1,100 @@
+/*Start Font*/
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+/*End Font*/
+
+/* Start Logo*/
+.logo{
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul{
+    background-color:#49a8f5;
+    border radius: 4px;
+    text-align: center;
+    box shadow:
+            0 3px 5px -1px rgba (0,0,0,.2),
+            0 6px 10px 0 rgba (0,0,0,.14),
+            0 1px 18px 0 rgba (0,0,0.12);
+}
+
+.menu-primer li{
+    border-right: 1px solid rgb(166,166,180);
+    display: inline-block;
+    margin: 0 -4px;
+}
+.menu-primer a {
+    color: #ffffff;
+    font-zine:13px;
+    display : inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover{
+    background-color: beige;
+    color :#333333 !important;
+    text decoration: none;
+}
+.menu-primer.active{
+    background-color: #ffffff;
+    color:#333333;
+    text-decoration: none;
+}
+/*End Menu Primer*/
+/* Start Heading*/
+h1,h2,h3,h4,h5{
+    font-weight: 400px;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px
+}
+h3{
+    font-size: 18px
+}
+h4{
+    font-size: 16px
+}h5{
+    font-size: 14px
+}
+/* End Heading*/
+/*Start Jumbotron*/
+.jumbotron{
+    background-color: #49a8f5;
+    border: 1px solid #333333;
+    border-radius :4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px
+}
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/*End Jumbotron*/
+
+/*Start Main*/
+.main-home-one{
+    float: left;
+    width: 50%;
+}
+.main-home-two{
+    float:right;
+    width: 50%;
+}
+/*End Main*/
+
+/*Start Box*/
+.box heading{
+    background-color: bisque;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0
+}
+/*End Box*/
